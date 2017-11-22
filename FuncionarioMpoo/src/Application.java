@@ -47,6 +47,14 @@ public class Application {
 		carlos.getCusto();
 		carlos.imprimir();
 		
+		Gerente luiz = new Gerente();
+		luiz.setNome("Luiz");
+		luiz.setSalario(10000);
+		luiz.getCusto();
+		luiz.setNumeroDeFuncionariosGerenciados(20);
+		luiz.getNumeroDeFuncionariosGerenciados();
+		luiz.imprimir();
+		
 		//TODO Setar e recuperar atributos dos objetos das classes gerente, secretaria, programador e Analista;
 		
 	}

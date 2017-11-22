@@ -6,6 +6,7 @@ public class Funcionario {
 	private double salario;
 	private double custo;
 	
+	
 	public void imprimir() {
 		System.out.println(this.getNome() + " tem um salario de " + this.getSalario() + 
 				" e representa um custo de " + this.getCusto() );

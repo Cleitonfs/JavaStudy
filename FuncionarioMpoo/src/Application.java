@@ -30,6 +30,24 @@ public class Application {
 		joao.setSalario(2000);
 		joao.imprimir();
 		
+		Secretaria maria = new Secretaria();
+		maria.setNome("Maria");
+		maria.setSalario(1500);
+		maria.getCusto();
+		maria.imprimir();
+		
+		Programador roberto = new Programador();
+		roberto.setNome("Roberto");
+		roberto.setSalario(1000);
+		roberto.imprimir();
+		
+		AnalistaDeSistemas carlos = new AnalistaDeSistemas();
+		carlos.setNome("Carlos");
+		carlos.setSalario(5000);
+		carlos.getCusto();
+		carlos.imprimir();
+		
+		//TODO Setar e recuperar atributos dos objetos das classes gerente, secretaria, programador e Analista;
 		
 	}
 

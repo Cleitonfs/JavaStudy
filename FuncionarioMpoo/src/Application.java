@@ -17,7 +17,7 @@ public class Application {
 		joao.custo = 2600;
 		System.out.println(joao.nome + " ganha um salário de " + joao.salario + 
 				" e tem um custo de " + joao.custo);
-		*		
+		*******		
 		*/
 		
 		Funcionario ze = new Funcionario();
